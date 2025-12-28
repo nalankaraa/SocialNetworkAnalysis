@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36717.8 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetworkAnalysis.Core", "SocialNetworkAnalysis.Core\SocialNetworkAnalysis.Core.csproj", "{08C7831B-6444-401C-B6C8-F70C6FB1A814}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetworkAnalysis.Algorithms", "SocialNetworkAnalysis.Algorithms\SocialNetworkAnalysis.Algorithms.csproj", "{EA01F591-08B9-4237-99A6-1BC0A267A543}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetworkAnalysis.Services", "SocialNetworkAnalysis.Services\SocialNetworkAnalysis.Services.csproj", "{2A563BCF-41DA-45A7-BE77-C78C8724786C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetworkAnalysis.UI", "SocialNetworkAnalysis.UI\SocialNetworkAnalysis.UI.csproj", "{4977A75C-F5C2-4B8A-9C30-E4BF7789736A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08C7831B-6444-401C-B6C8-F70C6FB1A814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08C7831B-6444-401C-B6C8-F70C6FB1A814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08C7831B-6444-401C-B6C8-F70C6FB1A814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08C7831B-6444-401C-B6C8-F70C6FB1A814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA01F591-08B9-4237-99A6-1BC0A267A543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA01F591-08B9-4237-99A6-1BC0A267A543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA01F591-08B9-4237-99A6-1BC0A267A543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA01F591-08B9-4237-99A6-1BC0A267A543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A563BCF-41DA-45A7-BE77-C78C8724786C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A563BCF-41DA-45A7-BE77-C78C8724786C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A563BCF-41DA-45A7-BE77-C78C8724786C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A563BCF-41DA-45A7-BE77-C78C8724786C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4977A75C-F5C2-4B8A-9C30-E4BF7789736A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4977A75C-F5C2-4B8A-9C30-E4BF7789736A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4977A75C-F5C2-4B8A-9C30-E4BF7789736A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4977A75C-F5C2-4B8A-9C30-E4BF7789736A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
