@@ -1,0 +1,47 @@
+﻿<Window x:Class="SocialNetworkAnalysis.UI.Views.AddEdgeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add New Edge" Height="300" Width="350"
+        WindowStartupLocation="CenterOwner"
+        Background="#0D0E19" ResizeMode="NoResize">
+
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="Background" Value="#181825"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="#444466"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Margin" Value="0,0,0,15"/>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#8F90A6"/>
+            <Setter Property="Margin" Value="0,0,0,5"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Link Nodes" Foreground="White" FontSize="20" FontWeight="Bold" Margin="0,0,0,20"/>
+
+        <StackPanel Grid.Row="1">
+            <TextBlock Text="Source Node ID"/>
+            <TextBox x:Name="TxtSourceId" ToolTip="Enter Source Node ID"/>
+
+            <TextBlock Text="Target Node ID"/>
+            <TextBox x:Name="TxtTargetId" ToolTip="Enter Target Node ID"/>
+
+            <TextBlock Text="Weight (Optional)"/>
+            <TextBox x:Name="TxtWeight" Text="1.0"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
+            <Button Content="Cancel" IsCancel="True" Width="80" Height="30" Background="#2B2B3D" Foreground="White" BorderThickness="0" Margin="0,0,10,0"/>
+            <Button Content="Add" Click="Save_Click" IsDefault="True" Width="80" Height="30" Background="#00E5FF" Foreground="Black" FontWeight="Bold" BorderThickness="0"/>
+        </StackPanel>
+    </Grid>
+</Window>
