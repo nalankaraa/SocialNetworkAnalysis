@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SocialNetworkAnalysis.Algorithms\SocialNetworkAnalysis.Algorithms.csproj" />
     <ProjectReference Include="..\SocialNetworkAnalysis.Core\SocialNetworkAnalysis.Core.csproj" />
   </ItemGroup>
 
